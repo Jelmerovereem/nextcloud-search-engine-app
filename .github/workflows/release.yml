@@ -34,7 +34,7 @@ jobs:
 
       - name: Create Release Zip
         run: |
-          mkdir -p releases
+          mkdir -p releases/dashboardsearchbar
           cp -r lib appinfo/info.xml appinfo/routes.php README.md CHANGELOG.md .gitignore js img templates releases/dashboardsearchbar
           zip -r dashboardsearchbar.zip releases/dashboardsearchbar
 
