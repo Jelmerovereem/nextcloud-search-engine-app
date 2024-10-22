@@ -35,10 +35,10 @@ jobs:
       - name: Create Release Zip
         run: |
           mkdir -p releases
-          zip -r ./releases/nextcloud-search-engine-${{ github.ref_name }}.zip lib appinfo/info.xml appinfo/routes.php README.md CHANGELOG.md .gitignore js img templates
+          zip -r ./releases/nextcloud-search-engine.zip lib appinfo/info.xml appinfo/routes.php README.md CHANGELOG.md .gitignore js img templates
 
       - name: Upload Release
         uses: softprops/action-gh-release@v2
         with:
           draft: true
-          files: ./releases/nextcloud-search-engine-${{ github.ref_name }}.zip
+          files: ./releases/nextcloud-search-engine.zip
