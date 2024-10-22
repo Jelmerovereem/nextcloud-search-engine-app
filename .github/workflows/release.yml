@@ -34,9 +34,9 @@ jobs:
 
       - name: Create Release Zip
         run: |
-          mkdir -p releases/dashboardsearchbar
-          cp -r lib appinfo/info.xml appinfo/routes.php README.md CHANGELOG.md .gitignore js img templates releases/dashboardsearchbar
-          zip -r dashboardsearchbar.zip releases/dashboardsearchbar
+          mkdir -p dashboardsearchbar
+          cp -r lib appinfo/info.xml appinfo/routes.php README.md CHANGELOG.md .gitignore js img templates dashboardsearchbar
+          zip -r dashboardsearchbar.zip dashboardsearchbar
 
       - name: Upload Release
         uses: softprops/action-gh-release@v2
