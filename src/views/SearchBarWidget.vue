@@ -29,7 +29,7 @@ import Magnify from 'vue-material-design-icons/Magnify'
 import { generateUrl } from '@nextcloud/router'
 
 export default {
-    name: "SearchEngineWidget",
+    name: "SearchBarWidget",
 
     components: {
         NcButton,
@@ -54,7 +54,7 @@ export default {
             this.searchQuery = event.target.value;
             if (this.searchQuery.length > 2) {
                 try {
-                    const response = await axios.get(generateUrl("/apps/searchengine/suggestions"), {
+                    const response = await axios.get(generateUrl("/apps/dashboardsearchbar/suggestions"), {
                         params: { query: this.searchQuery }
                     });
                     this.suggestions = response.data.map(suggestion => suggestion.phrase);

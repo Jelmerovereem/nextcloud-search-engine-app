@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- Initial release of the Search Engine app for Nextcloud.
+- Initial release of the Dashboard Search Bar App for Nextcloud.
 - A search bar widget that allows users to search directly within search engines like Google and DuckDuckGo.
 - Integration with DuckDuckGo for fetching search suggestions.
 

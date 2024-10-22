@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace OCA\SearchEngine\Controller;
+namespace OCA\SearchBar\Controller;
 
-use OCA\SearchEngine\Service\SuggestionsService;
+use OCA\SearchBar\Service\SuggestionsService;
 use OCP\AppFramework\Http\Attribute\NoAdminRequired;
 use OCP\AppFramework\Http\Attribute\NoCSRFRequired;
 use OCP\AppFramework\Controller;

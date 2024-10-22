@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace OCA\SearchEngine\Controller;
+namespace OCA\SearchBar\Controller;
 
-use OCA\SearchEngine\AppInfo\Application;
+use OCA\SearchBar\AppInfo\Application;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http\Attribute\FrontpageRoute;
 use OCP\AppFramework\Http\Attribute\NoAdminRequired;

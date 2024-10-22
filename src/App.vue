@@ -1,6 +1,6 @@
 <template>
 	<NcAppContent>
-		<div id="searchengine">
+		<div id="dashboardsearchbar">
 		</div>
 	</NcAppContent>
 </template>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-#searchengine {
+#dashboardsearchbar {
 	display: flex;
 	justify-content: center;
 	margin: 16px;

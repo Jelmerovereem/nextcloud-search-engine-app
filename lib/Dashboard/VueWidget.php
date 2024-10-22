@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace OCA\SearchEngine\Dashboard;
+namespace OCA\SearchBar\Dashboard;
 
-use OCA\SearchEngine\AppInfo\Application;
+use OCA\SearchBar\AppInfo\Application;
 use OCP\Dashboard\IAPIWidget;
 use OCP\IL10N;
 use OCP\Util;
@@ -26,7 +26,7 @@ class VueWidget implements IAPIWidget
      */
     public function getId(): string
     {
-        return 'searchenginedashboard-vue-widget';
+        return 'searchbardashboard-vue-widget';
     }
 
     /**

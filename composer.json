@@ -1,5 +1,5 @@
 {
-  "name": "nextcloud/searchengine",
+  "name": "nextcloud/dashboardsearchbar",
   "description": "A search bar widget for the home screen to directly search within search engines like Google and DuckDuckGo.",
   "license": "MIT",
   "authors": [
@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "OCA\\SearchEngine\\": "lib/"
+      "OCA\\SearchBar\\": "lib/"
     }
   },
   "scripts": {

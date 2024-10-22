@@ -2,9 +2,8 @@
 
 declare(strict_types=1);
 
-namespace OCA\SearchEngine\Service;
+namespace OCA\SearchBar\Service;
 
-use OCP\IURLGenerator;
 use Psr\Log\LoggerInterface;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;

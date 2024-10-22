@@ -3,7 +3,7 @@ const ESLintPlugin = require('eslint-webpack-plugin')
 const StyleLintPlugin = require('stylelint-webpack-plugin')
 const path = require('path')
 
-const appId = 'searchengine'
+const appId = 'dashboardsearchbar'
 webpackConfig.entry = {
 	main: { import: path.join(__dirname, 'src', 'main.js'), filename: 'main.js' },
 	dashboardVue: { import: path.join(__dirname, 'src', 'dashboardVue.js'), filename: appId + '-dashboardVue.js' },

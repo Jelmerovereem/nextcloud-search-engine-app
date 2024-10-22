@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import './vueBootstrap.js'
-import SearchEngineWidget from './views/SearchEngineWidget.vue'
+import SearchBarWidget from './views/SearchBarWidget.vue'
 
 document.addEventListener('DOMContentLoaded', () => {
-	OCA.Dashboard.register('searchenginedashboard-vue-widget', (el, { widget }) => {
-		const View = Vue.extend(SearchEngineWidget)
+	OCA.Dashboard.register('searchbardashboard-vue-widget', (el, { widget }) => {
+		const View = Vue.extend(SearchBarWidget)
 		new View({
 			propsData: { title: widget.title },
 		}).$mount(el)

@@ -1,4 +1,4 @@
-# Nextcloud Search Engine App
+# Nextcloud Dashboard Search Bar App
 
 This Nextcloud app integrates a search bar into your dashboard, allowing you to search DuckDuckGo directly. It also provides real-time search suggestions.
 

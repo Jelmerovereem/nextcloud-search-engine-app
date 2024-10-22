@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace OCA\SearchEngine\AppInfo;
+namespace OCA\SearchBar\AppInfo;
 
-use OCA\SearchEngine\Dashboard\VueWidget;
+use OCA\SearchBar\Dashboard\VueWidget;
 use OCP\AppFramework\App;
 use OCP\AppFramework\Bootstrap\IBootContext;
 use OCP\AppFramework\Bootstrap\IBootstrap;
@@ -12,7 +12,7 @@ use OCP\AppFramework\Bootstrap\IRegistrationContext;
 
 class Application extends App implements IBootstrap
 {
-	public const APP_ID = 'searchengine';
+	public const APP_ID = 'dashboardsearchbar';
 
 	/** @psalm-suppress PossiblyUnusedMethod */
 	public function __construct()

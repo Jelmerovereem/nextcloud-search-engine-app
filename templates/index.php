@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 use OCP\Util;
 
-Util::addScript(OCA\SearchEngine\AppInfo\Application::APP_ID, 'main');
+Util::addScript(OCA\SearchBar\AppInfo\Application::APP_ID, 'main');
 
 ?>
 
-<div id="searchengine"></div>
+<div id="dashboardsearchbar"></div>
