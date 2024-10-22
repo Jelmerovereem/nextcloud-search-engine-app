@@ -13,9 +13,9 @@
         </form>
 
         <ul v-if="suggestions.length" class="suggestions-list">
-            <li v-for="suggestion in suggestions" :key="suggestion" @click="useSuggestion(suggestion)">
-                {{ suggestion }}
-            </li>
+            <NcListItem v-for="suggestion in suggestions" :key="suggestion" compact :name="suggestion"
+                @click="useSuggestion(suggestion)">
+            </NcListItem>
         </ul>
     </div>
 </template>
@@ -24,6 +24,7 @@
 import axios from '@nextcloud/axios';
 import NcButton from '@nextcloud/vue/dist/Components/NcButton.js'
 import NcTextField from '@nextcloud/vue/dist/Components/NcTextField.js'
+import NcListItem from '@nextcloud/vue/dist/Components/NcListItem.js'
 import Magnify from 'vue-material-design-icons/Magnify'
 
 import { generateUrl } from '@nextcloud/router'
@@ -34,6 +35,7 @@ export default {
     components: {
         NcButton,
         NcTextField,
+        NcListItem,
         Magnify
     },
 
@@ -88,17 +90,5 @@ export default {
     list-style-type: none;
     padding: 0;
     margin-top: 10px;
-}
-
-.suggestions-list li {
-    cursor: pointer;
-    padding: 5px;
-    background-color: #f0f0f0;
-    margin-bottom: 2px;
-    border-radius: 4px;
-}
-
-.suggestions-list li:hover {
-    background-color: #e0e0e0;
 }
 </style>
