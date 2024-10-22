@@ -34,7 +34,7 @@ jobs:
 
       - name: Create Release Zip
         run: |
-          zip -r nextcloud-search-engine-${{ github.ref }}.zip lib info.xml composer.json README.md CHANGELOG.md .gitignore /js
+          zip -r nextcloud-search-engine-${{ github.ref }}.zip lib appinfo/info.xml appinfo/routes.php composer.json README.md CHANGELOG.md .gitignore js img templates
           mv nextcloud-search-engine-${{ github.ref }}.zip ./releases/
 
       - name: Upload Release
