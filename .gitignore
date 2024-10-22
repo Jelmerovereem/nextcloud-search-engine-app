@@ -1,0 +1,15 @@
+node_modules
+
+# Ignore Composer dependencies
+/vendor/
+/vendor-bin/
+
+# Ignore Composer lock file if you don't want to lock versions
+/composer.lock
+
+# Ignore autoload and other generated files
+/vendor/composer/
+
+# Cache and logs
+/cache/
+/logs/
