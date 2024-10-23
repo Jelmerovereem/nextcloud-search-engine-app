@@ -2,7 +2,7 @@
 
 This Nextcloud app integrates a search bar into your dashboard, allowing you to search DuckDuckGo directly. It also provides real-time search suggestions.
 
-<video src="docs/assets/demo.mp4"></video>
+https://github.com/user-attachments/assets/0beb0d97-9d57-47bf-9f9e-ffb2f412d111
 
 ## Features
 
