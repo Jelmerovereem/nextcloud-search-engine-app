@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 use OCP\Util;
 
-Util::addScript(OCA\SearchBar\AppInfo\Application::APP_ID, 'main');
+Util::addScript(OCA\DashboardSearchBar\AppInfo\Application::APP_ID, 'main');
 
 ?>
 

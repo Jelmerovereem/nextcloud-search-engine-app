@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OCA\SearchBar\Service;
+namespace OCA\DashboardSearchBar\Service;
 
 use Psr\Log\LoggerInterface;
 use GuzzleHttp\Client;

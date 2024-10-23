@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace OCA\SearchBar\Dashboard;
+namespace OCA\DashboardSearchBar\Dashboard;
 
-use OCA\SearchBar\AppInfo\Application;
+use OCA\DashboardSearchBar\AppInfo\Application;
 use OCP\Dashboard\IAPIWidget;
 use OCP\IL10N;
 use OCP\Util;

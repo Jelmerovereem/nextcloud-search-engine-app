@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace OCA\SearchBar\AppInfo;
+namespace OCA\DashboardSearchBar\AppInfo;
 
-use OCA\SearchBar\Dashboard\VueWidget;
+use OCA\DashboardSearchBar\Dashboard\VueWidget;
 use OCP\AppFramework\App;
 use OCP\AppFramework\Bootstrap\IBootContext;
 use OCP\AppFramework\Bootstrap\IBootstrap;

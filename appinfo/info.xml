@@ -8,7 +8,7 @@
 	<version>1.0.0</version>
 	<licence>mit</licence>
 	<author mail="jelmer_overeem@hotmail.com" homepage="https://github.com/Jelmerovereem">Jelmer Overeem</author>
-	<namespace>SearchBar</namespace>
+	<namespace>DashboardSearchBar</namespace>
 	<category>search</category>
 	<category>tools</category>
 	<bugs>https://github.com/Jelmerovereem/nextcloud-search-engine-app/issues</bugs>
