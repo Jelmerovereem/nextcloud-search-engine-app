@@ -18,9 +18,9 @@ https://github.com/user-attachments/assets/0beb0d97-9d57-47bf-9f9e-ffb2f412d111
    ```bash
    unzip dashboardsearchbar.zip -d /path/to/nextcloud/apps/
    ```
-3. Enable the app via the **Nextcloud web UI** or by running the following command in the terminal:
+3. Enable the app via the **Nextcloud web UI** (Apps -> Your apps) or by running the following command in the terminal:
    ```bash
-   occ app:enable search_engine_app
+   occ app:enable dashboardsearchbar
    ```
 4. After enabling the app, go to your dashboard, click on the **Customize** button, and add the **Search DuckDuckGo** widget.
 
